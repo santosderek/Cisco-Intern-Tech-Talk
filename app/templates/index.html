@@ -1,0 +1,20 @@
+{%extends "base.html" %}
+{% block information%}
+<div class="inner cover">
+    <h1 class="cover-heading">{{weather_data['name']}}</h1>
+    <br />
+    <p class="lead"><i>Temperature</i>: {{weather_data['main']['temp']}} °F</p>
+    <p class="lead"><i>Pressure</i>: {{weather_data['main']['pressure']}} Pa</p>
+    <p class="lead"><i>Humidity</i>: {{weather_data['main']['humidity']}} %</p>
+
+    <br />
+    <p class="lead">
+        <a href="https://interntalk.gitbook.io/project/" class="btn btn-lg btn-secondary">Learn more</a>
+    </p>
+    <p class="lead">
+        <a href="/list_all" class="btn btn-lg ">List All Keys</a>
+    </p>
+</div>
+
+
+{% endblock %}

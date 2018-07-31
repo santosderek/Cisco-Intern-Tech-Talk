@@ -1,0 +1,15 @@
+{%extends "base.html" %}
+{% block information%}
+<div class="inner cover">
+
+    <h1 class="cover-heading">{{weather_data['name']}}</h1>
+    <br />
+    {% for key, value in weather_data['main'].items() %}
+
+    <p class="lead"><b>{{key.title()}}</b>: {{value}} </p>
+
+    {% endfor %}
+</div>
+
+
+{% endblock %}
