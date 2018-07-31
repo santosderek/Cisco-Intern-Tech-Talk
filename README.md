@@ -7,9 +7,11 @@ This repository will give an overview on how to get started with Flask.
 
 ## Installation
 
-###### Python 3 & Pip Installation  
+#### Python 3 & Pip Installation  
+
 <br />
-***MacOS / Windows (Easy) ***
+
+***MacOS / Windows (Easy)***
 
 You can download 3.5.X or greater using the link bellow:
 
